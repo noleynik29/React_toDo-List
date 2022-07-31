@@ -7,9 +7,7 @@
   }
   
   body {
-    width: 100%;
-    background-image: url(https://i.pinimg.com/originals/b7/4b/2d/b74b2dfeca58f0955c51876c24fcf227.jpg);
-    background-size: 100% auto;
+    background: #161a2b;
   }
   .toDo-App {
     display: flex;
