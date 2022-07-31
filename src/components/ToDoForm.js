@@ -47,7 +47,7 @@ const handleSubmit = e => {
                       onChange={handleChange}
                       ref={inputRef} /><button className='toDo-button'>Add toDo</button>
                       </>
-                      )};
+                      )}
         </form>
     </div>
   )

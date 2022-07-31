@@ -7,8 +7,9 @@
   }
   
   body {
+    width: 100%;
     background-image: url(https://i.pinimg.com/originals/b7/4b/2d/b74b2dfeca58f0955c51876c24fcf227.jpg);
-    background-size: cover;
+    background-size: 100% auto;
   }
   .toDo-App {
     display: flex;
@@ -151,4 +152,12 @@
   .edit-icon:hover{
     opacity: 0.6;
   }
+
+  @media (max-width: 768px) {
+    body {
+      background-position: center;
+      background-attachment: fixed;
+    }
+ }
+  
 
