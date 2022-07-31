@@ -150,12 +150,3 @@
   .edit-icon:hover{
     opacity: 0.6;
   }
-
-  @media (max-width: 768px) {
-    body {
-      background-position: center;
-      background-attachment: fixed;
-    }
- }
-  
-
