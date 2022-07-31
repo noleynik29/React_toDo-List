@@ -7,8 +7,17 @@
   }
   
   body {
+    display: flex;
     background: #161a2b;
   }
+
+  #root {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .toDo-App {
     display: flex;
     flex-direction: column;
