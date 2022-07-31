@@ -26,7 +26,7 @@
     min-height: 600px;
     background: #161a2b;
     text-align: center;
-    margin: 128px auto;
+    margin: 128px 64px;
     border: 2px solid #5d0cff;
     border-radius: 10px;
     padding-bottom: 32px;
@@ -135,6 +135,12 @@
       rgba(17, 122, 255, 1) 100%
     );
   }
+
+  .toDo-text{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 372px;
+  }
   
   .icons {
     display: flex;
@@ -158,4 +164,31 @@
 
   .edit-icon:hover{
     opacity: 0.6;
+  }
+
+  @media screen and (max-width:500px) {
+
+    .toDo-App{
+      width: 100%;
+      margin: 128px 0;
+    }
+
+    .toDo-input{
+      width: 240px;
+    }
+
+    .toDo-button{
+      padding: 16px 10px;
+    }
+  }
+
+  @media screen and (max-width:375px){
+
+    .toDo-input{
+      width: 200px;
+    }
+
+    .toDo-button{
+      padding: 16px 8px;
+    }
   }

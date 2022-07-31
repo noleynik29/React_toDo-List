@@ -25,7 +25,7 @@ if(edit.id) {
 
   return toDos.map((toDo, index) => (
     <div className={toDo.isComplete ? 'toDo-row complete' : 'toDo-row'} key={index}>
-        <div key={toDo.id} onClick={() => completeToDo(toDo.id)}>
+        <div className='toDo-text' key={toDo.id} onClick={() => completeToDo(toDo.id)}>
             {toDo.text}
         </div>
         <div className='icons'>
